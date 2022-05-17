@@ -1,3 +1,4 @@
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- GROUPE
 -- Les Samouraïs de l'Est : Aurélie, Ellande, Vincent
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -196,7 +197,6 @@ JOIN `equipement` e ON e.personnage = p.id
 JOIN `objet` o ON e.objet = o.id
 JOIN sort s ON s.id = o.sort
 WHERE p.nom = "superpoulette";
-
 
 -- 5. Dire quels sorts peut utiliser un personnage en fonction du terrain où il se trouve
 SELECT p.nom, s.nom, s.type_sort, s.cout_magie, t.type_terrain from personnage p
