@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T09:12:42.640Z" agent="5.0 (Windows)" etag="hQ0ADFbz1FX5WpppOBJz" version="18.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T09:16:25.196Z" agent="5.0 (Windows)" etag="fAYfvmHQkmknC6w7kZ_Q" version="18.0.5" type="github">
   <diagram id="5ztTTNuFYKtxgXYqC56W" name="Page-1">
     <mxGraphModel dx="1221" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
         <mxCell id="EVqDO3nRReP4xpooN0YJ-78" value="MEMBRE" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="340" y="120" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EVqDO3nRReP4xpooN0YJ-79" value="+nom&#xa;+jauge magie&#xa;+jauge vie&#xa;+sac capacite&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="EVqDO3nRReP4xpooN0YJ-78">
+        <mxCell id="EVqDO3nRReP4xpooN0YJ-79" value="+nom&#xa;+jauge magie&#xa;+jauge vie&#xa;+sac capacite&#xa;+localisation&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="EVqDO3nRReP4xpooN0YJ-78">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EVqDO3nRReP4xpooN0YJ-80" value="SORT" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -388,6 +388,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="512.9999999999998" y="470" as="sourcePoint" />
             <mxPoint x="430" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVqDO3nRReP4xpooN0YJ-178" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EVqDO3nRReP4xpooN0YJ-93" target="EVqDO3nRReP4xpooN0YJ-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
